@@ -54,14 +54,38 @@
 		E4ACEE211FA256BB008A2CE2 /* NoahPulsipher_CSP */ = {
 			isa = PBXGroup;
 			children = (
-				E4ACEE221FA256BB008A2CE2 /* AppDelegate.swift */,
-				E4ACEE241FA256BB008A2CE2 /* ViewController.swift */,
-				E4ACEE261FA256BB008A2CE2 /* Main.storyboard */,
-				E4ACEE291FA256BB008A2CE2 /* Assets.xcassets */,
-				E4ACEE2B1FA256BB008A2CE2 /* LaunchScreen.storyboard */,
-				E4ACEE2E1FA256BB008A2CE2 /* Info.plist */,
+				E4ACEE361FA2580C008A2CE2 /* Controller */,
+				E4ACEE351FA25800008A2CE2 /* View */,
+				E4ACEE341FA257E0008A2CE2 /* Recources */,
 			);
 			path = NoahPulsipher_CSP;
+			sourceTree = "<group>";
+		};
+		E4ACEE341FA257E0008A2CE2 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				E4ACEE291FA256BB008A2CE2 /* Assets.xcassets */,
+				E4ACEE2E1FA256BB008A2CE2 /* Info.plist */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		E4ACEE351FA25800008A2CE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4ACEE261FA256BB008A2CE2 /* Main.storyboard */,
+				E4ACEE2B1FA256BB008A2CE2 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E4ACEE361FA2580C008A2CE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4ACEE221FA256BB008A2CE2 /* AppDelegate.swift */,
+				E4ACEE241FA256BB008A2CE2 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NoahPulsipher_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NoahPulsipher_CSP/Recources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.NoahPulsipher-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NoahPulsipher_CSP/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NoahPulsipher_CSP/Recources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.NoahPulsipher-CSP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
