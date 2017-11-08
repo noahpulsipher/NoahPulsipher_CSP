@@ -10,12 +10,12 @@ import UIKit
 public class AlgorithmsViewController: UIViewController
 {
     // MARK: Data members
-    @IBOutlet weak var firstLabel: UILabel!
+   @IBOutlet weak var firstLabel: UILabel!
     
     override public func viewDidLoad()
         {
-        super.viewDidLoad()
-
+            super.viewDidLoad()
+            setupAlgorithm()
         // Do any additional setup after loading the view.
         }
 
@@ -23,7 +23,7 @@ public class AlgorithmsViewController: UIViewController
     {
         var algorithmSteps : [String] = []
         
-        //TODO: Define algorithm and all steps
+        // MARK: Definition of algorithms
         let algorithm: String = "The are the instructions to create a poject in Swift using Xcode and Github \n"
         let stepOne: String = "First, open Xcode and click on create new Xcode project."
         let stepTwo: String = "Make sure that Single View App is selected and click next and Name your project something that relates to what it does and put it into your swift projects folder."
@@ -40,7 +40,7 @@ public class AlgorithmsViewController: UIViewController
         
         for step in algorithmSteps
         {
-            let bullet: String = "🔆"
+            let bullet: String = "🌚"
             let formattedStep: String = "\n\(bullet) \(step)"
             let attributedStringStep: NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
             let paragraphStyle = createParagraphStyle()
@@ -69,10 +69,8 @@ public class AlgorithmsViewController: UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
         }
-    
     /*
     // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
