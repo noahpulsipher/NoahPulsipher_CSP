@@ -20,7 +20,7 @@ class GlobalImpactViewController: UIViewController
 
     public func textMethod() -> Void
     {
-        firstLabel.text = "Human rights is something that everyone on the planet should be garunteed, if without them, none of us would enjoy the lives we live."
+        firstLabel.text = "Human rights is something that everyone on the planet should be garunteed; without them, none of us would enjoy the lives we live."
         secondLabel.text = "During my experiences I've had around the world, I saw people denied thier rights and suffer because of it."
         imageView.image = #imageLiteral(resourceName: "Human App")
     }
