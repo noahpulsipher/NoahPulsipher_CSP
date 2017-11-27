@@ -40,6 +40,14 @@
                                     <segue destination="1ZI-Af-khn" kind="show" id="fpx-2j-HaZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xIf-3M-O86">
+                                <rect key="frame" x="114" y="544" width="146" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="to abstraction screen"/>
+                                <connections>
+                                    <segue destination="1nu-5B-y6J" kind="show" id="bdo-74-xKG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -313,6 +321,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N4o-OB-vzW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1485.5999999999999" y="32.833583208395808"/>
+        </scene>
+        <!--Abstraction View Controller-->
+        <scene sceneID="shs-69-HL1">
+            <objects>
+                <viewController id="1nu-5B-y6J" customClass="AbstractionViewController" customModule="NoahPulsipher_CSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eeC-Pl-hKj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Swd-91-c41"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qg6-JU-6eT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2194" y="31"/>
         </scene>
     </scenes>
     <resources>
