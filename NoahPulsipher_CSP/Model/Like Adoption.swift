@@ -9,10 +9,6 @@
 import UIKit
 public class Dogs : Likeable
 {
-    public func isLike() -> Bool {
-        <#code#>
-    }
-    
     private var dogColor : UIColor
     //Mark: Likeable data member
     public var likeState: Bool
