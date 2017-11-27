@@ -11,7 +11,7 @@ import UIKit
 public class AbstractionViewController: UIPageViewController, UIPageViewControllerDataSource
 {
     //MARK: Array of subviews
-    private (set) lazy var oerderedAbstractionView : [UIViewController] =
+    private (set) lazy var orderedAbstractionViews : [UIViewController] =
     {
         return [
             self.newAbstractionViewController(abstractionLevel: "Block"),
@@ -28,17 +28,50 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
         return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "\(abstractionLevel)ViewConoller")
     }
     
-    override func viewDidLoad()
+    override public func viewDidLoad()
     {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        dataSource = self
+        
+        if let firstViewController = orderedAbstractionViews.first
+        {
+            setViewControllers([firstViewController],
+                               direction: .forward,
+                               animated: true,
+                               completion: nil)
+        }
+    }
+    
+    //MARK:- Required Protocol methods for UIPageViewControllerDatasource
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore
+        viewController: UIViewController) -> UIViewController?
+    {
+        guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
+        else
+        {
+            return nil
+        }
+        
+        let previousIndex = viewControllerIndex - 1
+        
+        guard previousIndex >= 0
+        else
+        {
+            return orderedAbstractionViews.last
+        }
+        
+        guard orderedAbstractionViews.count > previousIndex
+        else
+        {
+            return nil
+        }
+        
+        return orderedAbstractionViews[previousIndex]
     }
 
-    override func didReceiveMemoryWarning()
+    override public func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
 
