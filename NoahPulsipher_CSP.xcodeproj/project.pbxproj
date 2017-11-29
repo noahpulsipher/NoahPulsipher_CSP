@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E46FE99D1FCF39BB00C55A5F /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46FE99C1FCF39BB00C55A5F /* InternetDetailViewController.swift */; };
+		E46FE9A01FCF3C5100C55A5F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46FE99F1FCF3C5100C55A5F /* WebKit.framework */; };
 		E4ACEE231FA256BB008A2CE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE221FA256BB008A2CE2 /* AppDelegate.swift */; };
 		E4ACEE251FA256BB008A2CE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE241FA256BB008A2CE2 /* ViewController.swift */; };
 		E4ACEE281FA256BB008A2CE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4ACEE261FA256BB008A2CE2 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		E46FE99C1FCF39BB00C55A5F /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		E46FE99F1FCF3C5100C55A5F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		E4ACEE1F1FA256BB008A2CE2 /* NoahPulsipher_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoahPulsipher_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4ACEE221FA256BB008A2CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4ACEE241FA256BB008A2CE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,17 +51,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46FE9A01FCF3C5100C55A5F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E46FE99E1FCF3C5100C55A5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E46FE99F1FCF3C5100C55A5F /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4ACEE161FA256BB008A2CE2 = {
 			isa = PBXGroup;
 			children = (
 				E4ACEE211FA256BB008A2CE2 /* NoahPulsipher_CSP */,
 				E4ACEE201FA256BB008A2CE2 /* Products */,
+				E46FE99E1FCF3C5100C55A5F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
