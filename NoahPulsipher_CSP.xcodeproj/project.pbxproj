@@ -17,7 +17,7 @@
 		E4ACEE421FA25B76008A2CE2 /* DataAndInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE411FA25B76008A2CE2 /* DataAndInformationViewController.swift */; };
 		E4ACEE441FA25B86008A2CE2 /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE431FA25B86008A2CE2 /* AlgorithmsViewController.swift */; };
 		E4ACEE461FA25B97008A2CE2 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE451FA25B97008A2CE2 /* ProgrammingViewController.swift */; };
-		E4ACEE481FA25BB0008A2CE2 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE471FA25BB0008A2CE2 /* InternetViewController.swift */; };
+		E4ACEE481FA25BB0008A2CE2 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE471FA25BB0008A2CE2 /* InternetMasterViewController.swift */; };
 		E4ACEE4A1FA25BC5008A2CE2 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE491FA25BC5008A2CE2 /* GlobalImpactViewController.swift */; };
 		E4AF2E561FC3625D0019BAF8 /* Likeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF2E551FC3625D0019BAF8 /* Likeable.swift */; };
 		E4AF2E581FC362BB0019BAF8 /* Like Adoption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF2E571FC362BB0019BAF8 /* Like Adoption.swift */; };
@@ -36,7 +36,7 @@
 		E4ACEE411FA25B76008A2CE2 /* DataAndInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAndInformationViewController.swift; sourceTree = "<group>"; };
 		E4ACEE431FA25B86008A2CE2 /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
 		E4ACEE451FA25B97008A2CE2 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
-		E4ACEE471FA25BB0008A2CE2 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		E4ACEE471FA25BB0008A2CE2 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		E4ACEE491FA25BC5008A2CE2 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		E4AF2E551FC3625D0019BAF8 /* Likeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Likeable.swift; sourceTree = "<group>"; };
 		E4AF2E571FC362BB0019BAF8 /* Like Adoption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Like Adoption.swift"; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 				E4ACEE411FA25B76008A2CE2 /* DataAndInformationViewController.swift */,
 				E4ACEE431FA25B86008A2CE2 /* AlgorithmsViewController.swift */,
 				E4ACEE451FA25B97008A2CE2 /* ProgrammingViewController.swift */,
-				E4ACEE471FA25BB0008A2CE2 /* InternetViewController.swift */,
+				E4ACEE471FA25BB0008A2CE2 /* InternetMasterViewController.swift */,
 				E4ACEE491FA25BC5008A2CE2 /* GlobalImpactViewController.swift */,
 			);
 			path = Controller;
@@ -212,7 +212,7 @@
 				E4AF2E561FC3625D0019BAF8 /* Likeable.swift in Sources */,
 				E4AF2E581FC362BB0019BAF8 /* Like Adoption.swift in Sources */,
 				E4ACEE401FA25B62008A2CE2 /* AbstractionViewController.swift in Sources */,
-				E4ACEE481FA25BB0008A2CE2 /* InternetViewController.swift in Sources */,
+				E4ACEE481FA25BB0008A2CE2 /* InternetMasterViewController.swift in Sources */,
 				E4ACEE4A1FA25BC5008A2CE2 /* GlobalImpactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
