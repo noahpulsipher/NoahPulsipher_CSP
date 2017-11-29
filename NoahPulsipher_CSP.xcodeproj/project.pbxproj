@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E46FE99D1FCF39BB00C55A5F /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46FE99C1FCF39BB00C55A5F /* InternetDetailViewController.swift */; };
 		E4ACEE231FA256BB008A2CE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE221FA256BB008A2CE2 /* AppDelegate.swift */; };
 		E4ACEE251FA256BB008A2CE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE241FA256BB008A2CE2 /* ViewController.swift */; };
 		E4ACEE281FA256BB008A2CE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4ACEE261FA256BB008A2CE2 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E46FE99C1FCF39BB00C55A5F /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		E4ACEE1F1FA256BB008A2CE2 /* NoahPulsipher_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoahPulsipher_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4ACEE221FA256BB008A2CE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4ACEE241FA256BB008A2CE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		E4AF2E4F1FC35F1E0019BAF8 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				E46FE99C1FCF39BB00C55A5F /* InternetDetailViewController.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				E4ACEE461FA25B97008A2CE2 /* ProgrammingViewController.swift in Sources */,
 				E4ACEE231FA256BB008A2CE2 /* AppDelegate.swift in Sources */,
 				E4ACEE3E1FA25B4E008A2CE2 /* CreativityViewController.swift in Sources */,
+				E46FE99D1FCF39BB00C55A5F /* InternetDetailViewController.swift in Sources */,
 				E4ACEE421FA25B76008A2CE2 /* DataAndInformationViewController.swift in Sources */,
 				E4ACEE441FA25B86008A2CE2 /* AlgorithmsViewController.swift in Sources */,
 				E4AF2E561FC3625D0019BAF8 /* Likeable.swift in Sources */,

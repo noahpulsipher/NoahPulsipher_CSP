@@ -351,7 +351,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h2W-LC-ylb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3375" y="-246"/>
+            <point key="canvasLocation" x="2950" y="-589"/>
+        </scene>
+        <!--Internet Detail View Controller-->
+        <scene sceneID="9bg-nI-VdK">
+            <objects>
+                <viewController id="VMA-fT-P80" customClass="InternetDetailViewController" customModule="NoahPulsipher_CSP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BbI-Fl-Nq3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="ei8-sE-Pms"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yx3-jS-34q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2950" y="263"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="NSr-fQ-4Te">
@@ -380,7 +395,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PBA-t2-bvP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4329" y="-911"/>
+            <point key="canvasLocation" x="3684" y="-1249"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="GQe-RH-LXg">
@@ -396,7 +411,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sO8-iS-I93" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3375" y="-932"/>
+            <point key="canvasLocation" x="2950" y="-1249"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="uff-Ef-9aj">
