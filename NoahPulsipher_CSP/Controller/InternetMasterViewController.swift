@@ -11,7 +11,7 @@ import UIKit
 class InternetMasterViewController: UITableViewController
     
 {
-    func (set) lazy var internetTopics : [String] =
+    private (set) lazy var internetTopics : [String] =
     {
         return [
         "Definitions",
@@ -19,15 +19,32 @@ class InternetMasterViewController: UITableViewController
         "CTEC",
         "Canyons",
         "Twitter",
-        "Swift Guide"
-        ]
+        "Swift Language Guide"
+        r]
     }()
+    
+    private lazy var addresses : [String] = []
     
     private var detailViewController : InternetDetailViewController?
     
     private func setup() -> Void
     {
+        //TODO: Replace with your correct links
+        addresses = [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+        ]
         
+        if let splitView = splitViewController
+        {
+            let currentControllers = splitView.viewControllers
+            detailViewController = currentControllers[0] as?
+            InternetDetailViewController
+        }
     }
 
     override func viewDidLoad()
