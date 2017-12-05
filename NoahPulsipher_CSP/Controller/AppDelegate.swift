@@ -65,7 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         guard let secondaryAsNavController = secondaryViewController as? UINavigationController
             else {return false}
         guard let topAsDetailController = secondaryAsNavController.topViewController as?
-            InternetDetailViewController else{ return false}
+            InternetDetailViewController else {return false}
         if topAsDetailController.detailAddress == nil
         {
             //Return true to indicate that we hahndled the collapse by doing nothing; the secondary controller will be discarded.
