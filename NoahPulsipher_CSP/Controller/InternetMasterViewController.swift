@@ -32,11 +32,11 @@ class InternetMasterViewController: UITableViewController
         //TODO: Replace with your correct links
         addresses = [
             "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com"
+            "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
+            "https://ctec.canyonsdistrict.org/",
+            "https://www.canyonsdistrict.org/",
+            "https://twitter.com/",
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html"
         ]
         
         if let splitView = splitViewController
@@ -67,7 +67,7 @@ class InternetMasterViewController: UITableViewController
         return internetTopics.count
     }
     
-    override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewController
+    override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         let currentText = internetTopics[indexPath.row]
@@ -88,7 +88,7 @@ class InternetMasterViewController: UITableViewController
                 
                 if indexPath.row == 0
                 {
-                    //TODO: Replace with your definitions - gt time to us the """ operator
+                    //TODO: Replace with your definitions - great time to us the """ operator
                     pageText = "All the definitions you wrote......"
                 }
                 else
