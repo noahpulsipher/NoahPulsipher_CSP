@@ -23,6 +23,7 @@
 		E4ACEE4A1FA25BC5008A2CE2 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE491FA25BC5008A2CE2 /* GlobalImpactViewController.swift */; };
 		E4AF2E561FC3625D0019BAF8 /* Likeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF2E551FC3625D0019BAF8 /* Likeable.swift */; };
 		E4AF2E581FC362BB0019BAF8 /* Like Adoption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF2E571FC362BB0019BAF8 /* Like Adoption.swift */; };
+		E4EF8B1F1FD72A0700814EB6 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF8B1E1FD72A0700814EB6 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		E4ACEE491FA25BC5008A2CE2 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		E4AF2E551FC3625D0019BAF8 /* Likeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Likeable.swift; sourceTree = "<group>"; };
 		E4AF2E571FC362BB0019BAF8 /* Like Adoption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Like Adoption.swift"; sourceTree = "<group>"; };
+		E4EF8B1E1FD72A0700814EB6 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				E4ACEE261FA256BB008A2CE2 /* Main.storyboard */,
 				E4ACEE2B1FA256BB008A2CE2 /* LaunchScreen.storyboard */,
+				E4EF8B1E1FD72A0700814EB6 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				E4ACEE231FA256BB008A2CE2 /* AppDelegate.swift in Sources */,
 				E4ACEE3E1FA25B4E008A2CE2 /* CreativityViewController.swift in Sources */,
 				E46FE99D1FCF39BB00C55A5F /* InternetDetailViewController.swift in Sources */,
+				E4EF8B1F1FD72A0700814EB6 /* DrawingView.swift in Sources */,
 				E4ACEE421FA25B76008A2CE2 /* DataAndInformationViewController.swift in Sources */,
 				E4ACEE441FA25B86008A2CE2 /* AlgorithmsViewController.swift in Sources */,
 				E4AF2E561FC3625D0019BAF8 /* Likeable.swift in Sources */,
