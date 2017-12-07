@@ -20,7 +20,6 @@ class CreativityViewController: UICollectionViewController, UICollectionViewDele
             UIImage(named: "cute"),
             UIImage(named: "CSP Haiku"),
             UIImage(named: "Swift Drawing"),
-            UIImage(named: "swift Sample"),
             UIImage(named: "cute"),
             UIImage(named: "cute"),
             UIImage(named: "Swift Drawing"),
