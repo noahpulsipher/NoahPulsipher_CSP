@@ -23,6 +23,7 @@
 		E4ACEE4A1FA25BC5008A2CE2 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4ACEE491FA25BC5008A2CE2 /* GlobalImpactViewController.swift */; };
 		E4AF2E561FC3625D0019BAF8 /* Likeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF2E551FC3625D0019BAF8 /* Likeable.swift */; };
 		E4AF2E581FC362BB0019BAF8 /* Like Adoption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF2E571FC362BB0019BAF8 /* Like Adoption.swift */; };
+		E4BB69031FD9D3800069801B /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BB69021FD9D3800069801B /* ArtCell.swift */; };
 		E4EF8B1F1FD72A0700814EB6 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EF8B1E1FD72A0700814EB6 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		E4ACEE491FA25BC5008A2CE2 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		E4AF2E551FC3625D0019BAF8 /* Likeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Likeable.swift; sourceTree = "<group>"; };
 		E4AF2E571FC362BB0019BAF8 /* Like Adoption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Like Adoption.swift"; sourceTree = "<group>"; };
+		E4BB69021FD9D3800069801B /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		E4EF8B1E1FD72A0700814EB6 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				E46FE99C1FCF39BB00C55A5F /* InternetDetailViewController.swift */,
+				E4BB69021FD9D3800069801B /* ArtCell.swift */,
 			);
 			path = "New Group";
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4ACEE251FA256BB008A2CE2 /* ViewController.swift in Sources */,
+				E4BB69031FD9D3800069801B /* ArtCell.swift in Sources */,
 				E4ACEE461FA25B97008A2CE2 /* ProgrammingViewController.swift in Sources */,
 				E4ACEE231FA256BB008A2CE2 /* AppDelegate.swift in Sources */,
 				E4ACEE3E1FA25B4E008A2CE2 /* CreativityViewController.swift in Sources */,
