@@ -85,7 +85,7 @@ class CreativityViewController: UICollectionViewController, UICollectionViewDele
         
         artCell.backgroundColor = .purple
         artCell.imageView.image = artSelection[indexPath.row]
-        artCell.imageView.text = "My Art"
+        artCell.imageName.text = "My Art"
         
         return artCell
     }
