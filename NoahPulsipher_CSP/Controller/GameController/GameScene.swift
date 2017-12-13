@@ -79,11 +79,8 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             self.enumerateChildNodes(withName: "invader")
             {
                 node, stop in
-            
             }
-            
         }
-        
     }
     
     private func invokeInvaderFire() -> Void
