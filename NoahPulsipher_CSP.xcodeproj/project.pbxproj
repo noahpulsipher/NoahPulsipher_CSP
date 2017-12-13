@@ -22,8 +22,6 @@
 		E43536581FE1B30A0034B360 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43536481FE1B3080034B360 /* InternetMasterViewController.swift */; };
 		E435365B1FE1B30A0034B360 /* DataAndInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435364B1FE1B3080034B360 /* DataAndInformationViewController.swift */; };
 		E435365C1FE1B30A0034B360 /* AlgorithmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435364C1FE1B3080034B360 /* AlgorithmsViewController.swift */; };
-		E435365D1FE1B30A0034B360 /* GameController in Resources */ = {isa = PBXBuildFile; fileRef = E435364D1FE1B3080034B360 /* GameController */; };
-		E435365E1FE1B30A0034B360 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E435364E1FE1B3080034B360 /* GameScene.swift */; };
 		E43536601FE1B30A0034B360 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43536501FE1B3090034B360 /* AbstractionViewController.swift */; };
 		E43536611FE1B30A0034B360 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43536511FE1B3090034B360 /* ArtCell.swift */; };
 		E43536621FE1B30A0034B360 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43536521FE1B3090034B360 /* CreativityViewController.swift */; };
@@ -31,7 +29,11 @@
 		E43536641FE1B30A0034B360 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43536541FE1B30A0034B360 /* InternetDetailViewController.swift */; };
 		E43536671FE1B30A0034B360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43536571FE1B30A0034B360 /* AppDelegate.swift */; };
 		E43536691FE1B47C0034B360 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43536681FE1B47C0034B360 /* ProgrammingViewController.swift */; };
+		E44AA1B51FE1C0E700B892F1 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44AA1B21FE1C0E700B892F1 /* StartScene.swift */; };
+		E44AA1B61FE1C0E700B892F1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44AA1B31FE1C0E700B892F1 /* GameScene.swift */; };
+		E44AA1B71FE1C0E700B892F1 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44AA1B41FE1C0E700B892F1 /* LevelCompleteScene.swift */; };
 		E46FE9A01FCF3C5100C55A5F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46FE99F1FCF3C5100C55A5F /* WebKit.framework */; };
+		E473A5091FE1BD0400A18A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E473A5081FE1BD0400A18A11 /* ViewController.swift */; };
 		E4ACEE281FA256BB008A2CE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4ACEE261FA256BB008A2CE2 /* Main.storyboard */; };
 		E4ACEE2A1FA256BB008A2CE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4ACEE291FA256BB008A2CE2 /* Assets.xcassets */; };
 		E4ACEE2D1FA256BB008A2CE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4ACEE2B1FA256BB008A2CE2 /* LaunchScreen.storyboard */; };
@@ -56,8 +58,6 @@
 		E43536481FE1B3080034B360 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		E435364B1FE1B3080034B360 /* DataAndInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAndInformationViewController.swift; sourceTree = "<group>"; };
 		E435364C1FE1B3080034B360 /* AlgorithmsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmsViewController.swift; sourceTree = "<group>"; };
-		E435364D1FE1B3080034B360 /* GameController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameController; sourceTree = "<group>"; };
-		E435364E1FE1B3080034B360 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E43536501FE1B3090034B360 /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		E43536511FE1B3090034B360 /* ArtCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		E43536521FE1B3090034B360 /* CreativityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +65,11 @@
 		E43536541FE1B30A0034B360 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		E43536571FE1B30A0034B360 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E43536681FE1B47C0034B360 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
+		E44AA1B21FE1C0E700B892F1 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		E44AA1B31FE1C0E700B892F1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E44AA1B41FE1C0E700B892F1 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
 		E46FE99F1FCF3C5100C55A5F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E473A5081FE1BD0400A18A11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4ACEE1F1FA256BB008A2CE2 /* NoahPulsipher_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoahPulsipher_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4ACEE271FA256BB008A2CE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4ACEE291FA256BB008A2CE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,15 +95,15 @@
 		E43536111FE1AC840034B360 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E435364D1FE1B3080034B360 /* GameController */,
+				E44AA1B81FE1C0FA00B892F1 /* GameController */,
 				E43536501FE1B3090034B360 /* AbstractionViewController.swift */,
 				E43536681FE1B47C0034B360 /* ProgrammingViewController.swift */,
+				E473A5081FE1BD0400A18A11 /* ViewController.swift */,
 				E435364C1FE1B3080034B360 /* AlgorithmsViewController.swift */,
 				E43536571FE1B30A0034B360 /* AppDelegate.swift */,
 				E43536511FE1B3090034B360 /* ArtCell.swift */,
 				E43536521FE1B3090034B360 /* CreativityViewController.swift */,
 				E435364B1FE1B3080034B360 /* DataAndInformationViewController.swift */,
-				E435364E1FE1B3080034B360 /* GameScene.swift */,
 				E43536531FE1B3090034B360 /* GlobalImpactViewController.swift */,
 				E43536541FE1B30A0034B360 /* InternetDetailViewController.swift */,
 				E43536481FE1B3080034B360 /* InternetMasterViewController.swift */,
@@ -117,6 +121,16 @@
 				E43536311FE1ADAD0034B360 /* powerup sound.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		E44AA1B81FE1C0FA00B892F1 /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				E44AA1B31FE1C0E700B892F1 /* GameScene.swift */,
+				E44AA1B41FE1C0E700B892F1 /* LevelCompleteScene.swift */,
+				E44AA1B21FE1C0E700B892F1 /* StartScene.swift */,
+			);
+			path = GameController;
 			sourceTree = "<group>";
 		};
 		E46FE99E1FCF3C5100C55A5F /* Frameworks */ = {
@@ -252,7 +266,6 @@
 			files = (
 				E4ACEE2D1FA256BB008A2CE2 /* LaunchScreen.storyboard in Resources */,
 				E43536341FE1ADAD0034B360 /* laser sound.mp3 in Resources */,
-				E435365D1FE1B30A0034B360 /* GameController in Resources */,
 				E4ACEE2A1FA256BB008A2CE2 /* Assets.xcassets in Resources */,
 				E43536351FE1ADAD0034B360 /* invader sound.mp3 in Resources */,
 				E43536381FE1ADAD0034B360 /* boss sound.mp3 in Resources */,
@@ -271,8 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E43536691FE1B47C0034B360 /* ProgrammingViewController.swift in Sources */,
+				E44AA1B51FE1C0E700B892F1 /* StartScene.swift in Sources */,
 				E43536611FE1B30A0034B360 /* ArtCell.swift in Sources */,
-				E435365E1FE1B30A0034B360 /* GameScene.swift in Sources */,
 				E4EF8B1F1FD72A0700814EB6 /* DrawingView.swift in Sources */,
 				E43536471FE1AFE10034B360 /* InvaderLaser.swift in Sources */,
 				E43536601FE1B30A0034B360 /* AbstractionViewController.swift in Sources */,
@@ -286,9 +299,12 @@
 				E43536431FE1AFE10034B360 /* Player.swift in Sources */,
 				E435365C1FE1B30A0034B360 /* AlgorithmsViewController.swift in Sources */,
 				E435365B1FE1B30A0034B360 /* DataAndInformationViewController.swift in Sources */,
+				E44AA1B61FE1C0E700B892F1 /* GameScene.swift in Sources */,
 				E43536581FE1B30A0034B360 /* InternetMasterViewController.swift in Sources */,
 				E43536441FE1AFE10034B360 /* PlayerLaser.swift in Sources */,
+				E473A5091FE1BD0400A18A11 /* ViewController.swift in Sources */,
 				E4AF2E581FC362BB0019BAF8 /* Like Adoption.swift in Sources */,
+				E44AA1B71FE1C0E700B892F1 /* LevelCompleteScene.swift in Sources */,
 				E43536671FE1B30A0034B360 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

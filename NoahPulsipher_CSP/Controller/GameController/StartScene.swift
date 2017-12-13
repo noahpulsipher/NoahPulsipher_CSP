@@ -24,6 +24,7 @@ public class StartScene : SKScene
         addChild(startButton)
     }
     
+    
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
     {
         let currentTouch = touches.first
@@ -32,7 +33,7 @@ public class StartScene : SKScene
         
         if (touchedNode.name == "start")
         {
-            let gameOverScene GameScene(size: size)
+            let gameOverScene = GameScene(size: size)
             gameOverScene.scaleMode = scaleMode
             let transitionType = SKTransition.flipHorizontal(withDuration: 1.0)
             view?.presentScene(gameOverScene, transition: transitionType)
