@@ -7,9 +7,7 @@
 //
 import Foundation
 
-
 var gameLevel : Int = 1
-
 
 struct CollisionCategories
 {

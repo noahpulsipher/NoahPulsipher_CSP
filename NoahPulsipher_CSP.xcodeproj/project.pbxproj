@@ -158,9 +158,9 @@
 		E4ACEE341FA257E0008A2CE2 /* Recources */ = {
 			isa = PBXGroup;
 			children = (
-				E435363A1FE1AE9E0034B360 /* Utilities.swift */,
 				E43536391FE1ADEA0034B360 /* Sounds */,
 				E4ACEE291FA256BB008A2CE2 /* Assets.xcassets */,
+				E435363A1FE1AE9E0034B360 /* Utilities.swift */,
 				E4ACEE2E1FA256BB008A2CE2 /* Info.plist */,
 			);
 			path = Recources;
