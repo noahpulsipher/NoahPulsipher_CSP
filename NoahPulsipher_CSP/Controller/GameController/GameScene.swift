@@ -122,7 +122,9 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         self.physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
         self.physicsBody?.categoryBitMask = CollisionCategories.EdgeBody
         
-        backgroundColor = UIColor.magenta
+        backgroundColor = UIColor.black
+        let starField = SKEmitterNode(fileNamed: "StarField")
+        addChild(starField!)
         rightBounds = self.size.width - 30
         setupInvaders()
         setupPlayer()
