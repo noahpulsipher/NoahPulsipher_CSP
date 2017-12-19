@@ -52,8 +52,6 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
                 }
             }
         }
-        
-        
     }
 
     private func setupPlayer() -> Void
@@ -134,6 +132,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
             view?.presentScene(levelCompleteScene, transition: transitionType)
         }
+       
         else
         {
             gameLevel = 1
@@ -141,9 +140,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         }
     }
     
-    
     //MARK:- Scene methods
-    
     override public func didMove(to view: SKView) -> Void
     {
         self.physicsWorld.gravity = CGVector(dx:0, dy:0)
