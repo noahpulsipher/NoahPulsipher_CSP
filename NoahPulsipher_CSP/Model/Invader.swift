@@ -29,13 +29,13 @@ public class Invader: SKSpriteNode
         self.physicsBody?.contactTestBitMask = CollisionCategories.PlayerLaser | CollisionCategories.Player
         self.physicsBody?.collisionBitMask = CollisionCategories.EdgeBody
     }
-    // Required init must be provided by subclass
+    // Required for Storyboard use
     required public init?(coder aDecoder: NSCoder)
     {
         super.init(coder: aDecoder)
     }
     
-    //MARK: - Invader methods section
+    //MARK: - Invader methods
     public func fireBullet(scene: SKScene) -> Void
     {
         let bullet = InvaderLaser(imageName: "laser", bulletSound: nil)
